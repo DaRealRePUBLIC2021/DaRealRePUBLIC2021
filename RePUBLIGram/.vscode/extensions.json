@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "hashicorp.terraform",
+        "googlecloudtools.cloudcode",
+        "ms-azuretools.vscode-azureterraform",
+        "4ops.terraform"
+    ]
+}
