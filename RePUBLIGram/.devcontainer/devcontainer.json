@@ -4,7 +4,7 @@
 	"name": "Azure Machine Learning", 
 	"dockerFile": "Dockerfile", 
 
-	// This line allows you to use Docker runconfigs if you set "sharedVolumes": false
+	// This line allows you to use Docker runconfigs if you set "sharedVolumes": true
 	"mounts": [ "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind" ],
 
 	// Set *default* container specific settings.json values on container create.
@@ -26,7 +26,9 @@
 	"extensions": [
 		"ms-toolsai.vscode-ai",
 		"ms-azuretools.vscode-docker",
-		"4ops.terraform"
+		"4ops.terraform",
+		"ms-dotnettools.csharp",
+		"azurite.azurite"
 	]
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
