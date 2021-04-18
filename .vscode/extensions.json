@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "slevesque.vscode-link"
+        "slevesque.vscode-link",
+        "hashicorp.terraform"
     ]
 }
